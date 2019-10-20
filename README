@@ -1,0 +1,21 @@
+fingetprint module                 converter 
+red wire      5v                   5v
+black wire   GND                   gnd
+white wire  RXD                    TXD 
+yellow wire   TXD                  RXD
+
+Step 1: To install this library, root privileges are required. So login with root user.
+	sudo bash
+Step 2: Add repo to the apt source list
+	cat pm-codeworks.de.gpg | apt-key add –
+	cat pm-codeworks.list >> /etc/apt/sources.list.d/
+	sudo apt update
+	sudo apt upgrade
+	apt-get install python3-fingerprint <<<<<<or>>>>>>> apt-get install python3-fingerprint
+	exit
+Step 3: Now check USB port on which your finger print sensor is connected. Use this USB
+port in our Python script.
+	ls /dev/ttyUSB*
+Step 4: Now navigate to /usr/share/doc/python-fingerprint/examples
+	cd /usr/share/doc/python-fingerprint/examples/
+	ls
