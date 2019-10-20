@@ -11,7 +11,7 @@ Step 2: Add repo to the apt source list
 	cat pm-codeworks.list >> /etc/apt/sources.list.d/
 	sudo apt update
 	sudo apt upgrade
-	apt-get install python3-fingerprint <<<<<<or>>>>>>> apt-get install python3-fingerprint
+	apt-get install python-fingerprint
 	exit
 Step 3: Now check USB port on which your finger print sensor is connected. Use this USB
 port in our Python script.
