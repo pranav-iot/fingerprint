@@ -8,7 +8,7 @@ Step 1: To install this library, root privileges are required. So login with roo
 	sudo bash
 Step 2: Add repo to the apt source list
 	cat pm-codeworks.de.gpg | apt-key add –
-	cat pm-codeworks.list >> /etc/apt/sources.list.d/
+	cat pm-codeworks.list >> /etc/apt/sources.list.d/pm-codeworks.list
 	sudo apt update
 	sudo apt upgrade
 	apt-get install python-fingerprint
